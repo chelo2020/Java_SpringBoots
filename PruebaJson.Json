@@ -1,0 +1,43 @@
+[
+    {   
+        "Nombre": "Juan Marcelo",
+        "Apellido": "De Lima",
+        "Edad": 45,
+
+        "Equipos":[
+
+            "Sporting Club",
+            "Manchester united",
+            "Real Madrid",
+            "Juventus"
+        ]
+
+    },
+    {
+        "Nombre": "Juan Manuel",
+        "Apellido": "De Lima",
+        "Edad": 35,
+
+        "Equipos":[
+
+            "Sporting Club",
+            "Manchester united",
+            "Real Madrid",
+            "Juventus"
+        ]
+  
+    },
+    {
+        "Nombre": "Juan",
+        "Apellido": "De Lima",
+        "Edad": 25,
+
+        "Equipos":[
+
+            "Sporting Club",
+            "Manchester united",
+            "Real Madrid",
+            "Juventus"
+        ]
+    }
+]
