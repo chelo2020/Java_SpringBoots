@@ -1,4 +1,5 @@
-package com.tpfinal.TrabajoFinal.Model;
+package com.prueba1.prueba1.Model;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,8 +8,8 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
 @Entity
+@Getter @Setter
 public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -27,10 +28,5 @@ public class Producto {
         this.marca = marca;
         this.costo = costo;
         this.cantidad_disponible = cantidad_disponible;
-    }
-
-    public Double setCantidad_disponible(Double cantidad_disponible) {
-        this.cantidad_disponible = cantidad_disponible;
-        return cantidad_disponible;
     }
 }
